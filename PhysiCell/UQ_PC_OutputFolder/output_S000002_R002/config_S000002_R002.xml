@@ -23,13 +23,13 @@
     </overall>
 
     <parallel>
-        <omp_num_threads>6</omp_num_threads>
+        <omp_num_threads>4</omp_num_threads>
     </parallel>
 
     <save>
-        <folder>output</folder>
+        <folder>UQ_PC_OutputFolder/output_S000002_R002/</folder>
         <full_data>
-            <interval units="min">720</interval>
+            <interval units="min">1440</interval>
             <enable>true</enable>
         </full_data>
         <SVG>
@@ -51,7 +51,7 @@
         <legacy_random_points_on_sphere_in_divide>false</legacy_random_points_on_sphere_in_divide>
         <virtual_wall_at_domain_edge>true</virtual_wall_at_domain_edge>
         <disable_automated_spring_adhesions>false</disable_automated_spring_adhesions>
-        <random_seed>0</random_seed>
+        <random_seed>system_clock</random_seed>
     </options>
 
     <microenvironment_setup>
@@ -221,8 +221,8 @@
                     <relative_rupture_volume units="dimensionless">2.0</relative_rupture_volume>
                 </volume>
                 <mechanics>
-                    <cell_cell_adhesion_strength units="micron/min">00.4</cell_cell_adhesion_strength>
-                    <cell_cell_repulsion_strength units="micron/min">10.0</cell_cell_repulsion_strength>
+                    <cell_cell_adhesion_strength units="micron/min">0.4490260426700115</cell_cell_adhesion_strength>
+                    <cell_cell_repulsion_strength units="micron/min">8.21382673829794</cell_cell_repulsion_strength>
                     <relative_maximum_adhesion_distance units="dimensionless">1.25</relative_maximum_adhesion_distance>
                     <cell_adhesion_affinities>
                         <cell_adhesion_affinity name="Monocytes">10</cell_adhesion_affinity>
@@ -238,10 +238,10 @@
                     <attachment_elastic_constant units="1/min">0.01</attachment_elastic_constant>
                     <attachment_rate units="1/min">0.2</attachment_rate>
                     <detachment_rate units="1/min">0.8</detachment_rate>
-                    <maximum_number_of_attachments>2</maximum_number_of_attachments>
+                    <maximum_number_of_attachments>2.2719023980200292</maximum_number_of_attachments>
                 </mechanics>
                 <motility>
-                    <speed units="micron/min">2</speed>
+                    <speed units="micron/min">1.9448235794901847</speed>
                     <persistence_time units="min">1</persistence_time>
                     <migration_bias units="dimensionless">.5</migration_bias>
                     <options>
@@ -846,13 +846,13 @@
                 </motility>
                 <secretion>
                     <substrate name="NAMPT">
-                        <secretion_rate units="1/min">000</secretion_rate>
+                        <secretion_rate units="1/min">300</secretion_rate>
                         <secretion_target units="substrate density">1</secretion_target>
                         <uptake_rate units="1/min">0</uptake_rate>
                         <net_export_rate units="total substrate/min">0</net_export_rate>
                     </substrate>
                     <substrate name="CSF1">
-                        <secretion_rate units="1/min">00.0</secretion_rate>
+                        <secretion_rate units="1/min">200.0</secretion_rate>
                         <secretion_target units="substrate density">1.0</secretion_target>
                         <uptake_rate units="1/min">0.0</uptake_rate>
                         <net_export_rate units="total substrate/min">0.0</net_export_rate>

@@ -1,0 +1,13 @@
+[ModelA]
+executable = ./project
+configfile_ref = user_projects/NLC_CLL_Contact/config/PhysiCell_settings.xml
+numreplicates = 3
+parameters = { 
+		".//parallel/omp_num_threads" : '4',
+		".//save/full_data/interval" : '1440',
+		".//cell_definitions/cell_definition[@name='CLL'][@ID='0']/phenotype/motility/speed" : [None, 'speed'],
+		".//cell_definitions/cell_definition[@name='CLL'][@ID='0']/phenotype/mechanics/maximum_number_of_attachments" : [None, 'max_attachments'],
+		".//cell_definitions/cell_definition[@name='CLL'][@ID='0']/phenotype/mechanics/cell_cell_adhesion_strength" : [None, 'adhesion_rate'],
+		".//cell_definitions/cell_definition[@name='CLL'][@ID='0']/phenotype/mechanics/cell_cell_repulsion_strength" : [None, 'repulsion_rate'],
+	}
+
