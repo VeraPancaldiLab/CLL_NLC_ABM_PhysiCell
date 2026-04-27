@@ -1,0 +1,8 @@
+PyQt5
+matplotlib
+scipy
+pandas
+simulariumio[physicell]
+anndata
+requests
+git+https://github.com/PhysiBoSS-Models/physiboss-models/
