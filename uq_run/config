@@ -1,0 +1,9 @@
+[modelA]
+executable = ./../PhysiCellv114/project
+configfile_ref = ../PhysiCellv114/config/PhysiCell_settings.xml
+numreplicates = 1
+parameters = { 
+		".//parallel/omp_num_threads" : '4',
+		".//save/full_data/interval" : [None, 'speed'],
+	}
+

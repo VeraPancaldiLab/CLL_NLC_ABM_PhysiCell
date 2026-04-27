@@ -1,0 +1,9 @@
+CLL,CXCL12 gradient,increases,adhesive affinity to NLC,1,0.5,4,0
+CLL,CCL3 gradient,increases,adhesive affinity to Monocytes,1,0.5,4,0
+CLL,Stress gradient,increases,transform to Dead,9.1e-05,1e-06,6,0
+CLL,contact with CLL,decreases,transform to Dead,9.1e-06,0.0005,4,0
+CLL,BAFF gradient,decreases,transform to Dead,9.1e-06,0.00045,1,0
+Monocytes,intracellular NAMPT,increases,adhesive affinity to CLL,1,0.5,4,0
+Monocytes,intracellular CSF1,increases,adhesive affinity to CLL,1,0.5,4,0
+Monocytes,contact with CLL,increases,transform to NLC,0.00011,0.0001,1,0
+NLC,Stress gradient,increases,phagocytose Dead,0.091,2.5e-09,10,0

@@ -1,0 +1,250 @@
+Signals (with synonyms): 
+=======================
+4 : BAFF
+16 : BAFF gradient
+2 : CCL3
+14 : CCL3 gradient
+1 : CSF1
+13 : CSF1 gradient
+3 : CXCL12
+15 : CXCL12 gradient
+0 : NAMPT
+12 : NAMPT gradient
+5 : Stress
+17 : Stress gradient
+38 : apoptotic
+33 : attacking
+24 : contact with Apoptotic
+30 : contact with BM
+20 : contact with CLL
+23 : contact with Dead
+21 : contact with Monocytes
+22 : contact with NLC
+27 : contact with apoptotic cell
+27 : contact with apoptotic cells
+30 : contact with basement membrane
+20 : contact with cell type 0
+21 : contact with cell type 1
+22 : contact with cell type 2
+23 : contact with cell type 3
+24 : contact with cell type 4
+26 : contact with dead cell
+26 : contact with dead cells
+25 : contact with live cell
+25 : contact with live cells
+28 : contact with necrotic cell
+28 : contact with necrotic cells
+29 : contact with other dead cell
+29 : contact with other dead cells
+36 : current time
+37 : custom 0
+37 : custom: sample
+37 : custom:sample
+31 : damage
+32 : damage delivered
+34 : dead
+36 : global time
+16 : grad(BAFF)
+14 : grad(CCL3)
+13 : grad(CSF1)
+15 : grad(CXCL12)
+12 : grad(NAMPT)
+17 : grad(Stress)
+16 : gradient of BAFF
+14 : gradient of CCL3
+13 : gradient of CSF1
+15 : gradient of CXCL12
+12 : gradient of NAMPT
+17 : gradient of Stress
+10 : internalized BAFF
+8 : internalized CCL3
+7 : internalized CSF1
+9 : internalized CXCL12
+6 : internalized NAMPT
+11 : internalized Stress
+10 : intracellular BAFF
+8 : intracellular CCL3
+7 : intracellular CSF1
+9 : intracellular CXCL12
+6 : intracellular NAMPT
+11 : intracellular Stress
+33 : is attacking
+34 : is dead
+38 : is_apoptotic
+39 : is_necrotic
+39 : necrotic
+18 : pressure
+36 : time
+35 : total attack time
+32 : total damage delivered
+19 : volume
+
+
+Behaviors (with synonyms): 
+=========================
+22 : BAFF export
+4 : BAFF secretion
+10 : BAFF secretion saturation density
+10 : BAFF secretion target
+16 : BAFF uptake
+20 : CCL3 export
+2 : CCL3 secretion
+8 : CCL3 secretion saturation density
+8 : CCL3 secretion target
+14 : CCL3 uptake
+19 : CSF1 export
+1 : CSF1 secretion
+7 : CSF1 secretion saturation density
+7 : CSF1 secretion target
+13 : CSF1 uptake
+21 : CXCL12 export
+3 : CXCL12 secretion
+9 : CXCL12 secretion saturation density
+9 : CXCL12 secretion target
+15 : CXCL12 uptake
+18 : NAMPT export
+0 : NAMPT secretion
+6 : NAMPT secretion saturation density
+6 : NAMPT secretion target
+12 : NAMPT uptake
+23 : Stress export
+5 : Stress secretion
+11 : Stress secretion saturation density
+11 : Stress secretion target
+17 : Stress uptake
+47 : adhesive affinity to Apoptotic
+43 : adhesive affinity to CLL
+46 : adhesive affinity to Dead
+44 : adhesive affinity to Monocytes
+45 : adhesive affinity to NLC
+43 : adhesive affinity to cell type 0
+44 : adhesive affinity to cell type 1
+45 : adhesive affinity to cell type 2
+46 : adhesive affinity to cell type 3
+47 : adhesive affinity to cell type 4
+30 : apoptosis
+79 : asymmetric division to Apoptotic
+75 : asymmetric division to CLL
+78 : asymmetric division to Dead
+76 : asymmetric division to Monocytes
+77 : asymmetric division to NLC
+64 : attack Apoptotic
+60 : attack CLL
+63 : attack Dead
+61 : attack Monocytes
+62 : attack NLC
+60 : attack cell type 0
+61 : attack cell type 1
+62 : attack cell type 2
+63 : attack cell type 3
+64 : attack cell type 4
+90 : attack damage rate
+91 : attack duration
+87 : cell attachment rate
+88 : cell detachment rate
+50 : cell-BM adhesion
+51 : cell-BM repulsion
+41 : cell-cell adhesion
+42 : cell-cell adhesion elastic constant
+49 : cell-cell repulsion
+50 : cell-membrane adhesion
+51 : cell-membrane repulsion
+39 : chemotactic response to BAFF
+37 : chemotactic response to CCL3
+36 : chemotactic response to CSF1
+38 : chemotactic response to CXCL12
+35 : chemotactic response to NAMPT
+40 : chemotactic response to Stress
+39 : chemotactic sensitivity to BAFF
+37 : chemotactic sensitivity to CCL3
+36 : chemotactic sensitivity to CSF1
+38 : chemotactic sensitivity to CXCL12
+35 : chemotactic sensitivity to NAMPT
+40 : chemotactic sensitivity to Stress
+80 : custom 0
+80 : custom: sample
+80 : custom:sample
+24 : cycle entry
+92 : damage rate
+93 : damage repair rate
+24 : exit from cycle phase 0
+25 : exit from cycle phase 1
+26 : exit from cycle phase 2
+27 : exit from cycle phase 3
+28 : exit from cycle phase 4
+29 : exit from cycle phase 5
+69 : fuse to Apoptotic
+65 : fuse to CLL
+68 : fuse to Dead
+66 : fuse to Monocytes
+67 : fuse to NLC
+65 : fuse to cell type 0
+66 : fuse to cell type 1
+67 : fuse to cell type 2
+68 : fuse to cell type 3
+69 : fuse to cell type 4
+86 : immunogenicity to Apoptotic
+82 : immunogenicity to CLL
+85 : immunogenicity to Dead
+83 : immunogenicity to Monocytes
+84 : immunogenicity to NLC
+82 : immunogenicity to cell type 0
+83 : immunogenicity to cell type 1
+84 : immunogenicity to cell type 2
+85 : immunogenicity to cell type 3
+86 : immunogenicity to cell type 4
+81 : is movable
+81 : is_movable
+89 : maximum number of cell attachments
+33 : migration bias
+34 : migration persistence time
+32 : migration speed
+81 : movable
+31 : necrosis
+59 : phagocytose Apoptotic
+55 : phagocytose CLL
+58 : phagocytose Dead
+56 : phagocytose Monocytes
+57 : phagocytose NLC
+52 : phagocytose apoptotic cell
+55 : phagocytose cell type 0
+56 : phagocytose cell type 1
+57 : phagocytose cell type 2
+58 : phagocytose cell type 3
+59 : phagocytose cell type 4
+53 : phagocytose necrotic cell
+54 : phagocytose other dead cell
+55 : phagocytosis of 0
+56 : phagocytosis of 1
+57 : phagocytosis of 2
+58 : phagocytosis of 3
+59 : phagocytosis of 4
+52 : phagocytosis of apoptotic cell
+52 : phagocytosis of apoptotic cells
+53 : phagocytosis of necrotic cell
+53 : phagocytosis of necrotic cells
+54 : phagocytosis of other dead cell
+54 : phagocytosis of other dead cells
+48 : relative maximum adhesion distance
+74 : transform to Apoptotic
+70 : transform to CLL
+73 : transform to Dead
+71 : transform to Monocytes
+72 : transform to NLC
+70 : transform to cell type 0
+71 : transform to cell type 1
+72 : transform to cell type 2
+73 : transform to cell type 3
+74 : transform to cell type 4
+74 : transition to Apoptotic
+70 : transition to CLL
+73 : transition to Dead
+71 : transition to Monocytes
+72 : transition to NLC
+70 : transition to cell type 0
+71 : transition to cell type 1
+72 : transition to cell type 2
+73 : transition to cell type 3
+74 : transition to cell type 4
+
+

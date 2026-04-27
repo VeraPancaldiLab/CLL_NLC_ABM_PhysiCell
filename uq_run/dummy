@@ -1,0 +1,9 @@
+[modela]
+executable = ./project
+configfile_ref = user_projects/dummy/config/PhysiCell_settings.xml
+numreplicates = 3
+parameters = { 
+		".//parallel/omp_num_threads" : '4',
+		".//save/full_data/interval" : [None, 'migration_bias'],
+	}
+
